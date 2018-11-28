@@ -28,7 +28,7 @@ module(s) that are able to load servables based on that. Such modules are called
 comes with one for instantiating TensorFlow sessions based on paths
 in file systems that TensorFlow supports. One can add support for
 additional file systems to TensorFlow by extending the `RandomAccessFile`
-abstraction (`tensorflow/core/public/env.h`).
+abstraction (`tensorflow/core/platform/file_system.h`).
 
 This document focuses on creating a source that emits paths in a
 TensorFlow-supported file system. It ends with a walk-through of how to use your
